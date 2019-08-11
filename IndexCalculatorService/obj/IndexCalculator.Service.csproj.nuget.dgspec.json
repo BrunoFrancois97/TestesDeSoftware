@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj": {}
+    "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj": {}
   },
   "projects": {
-    "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj": {
+    "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj",
+        "projectUniqueName": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj",
         "projectName": "IndexCalculator.Repository",
-        "projectPath": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj",
+        "projectPath": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj",
         "packagesPath": "C:\\Users\\Bungho\\.nuget\\packages\\",
-        "outputPath": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculator.Repository\\obj\\",
+        "outputPath": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculator.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -56,14 +56,14 @@
         }
       }
     },
-    "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj": {
+    "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj",
+        "projectUniqueName": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj",
         "projectName": "IndexCalculator.Service",
-        "projectPath": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj",
+        "projectPath": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculatorService\\IndexCalculator.Service.csproj",
         "packagesPath": "C:\\Users\\Bungho\\.nuget\\packages\\",
-        "outputPath": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculatorService\\obj\\",
+        "outputPath": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculatorService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj": {
-                "projectPath": "D:\\POS PUC\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj"
+              "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj": {
+                "projectPath": "D:\\POS PUC\\Modulo I\\Testes de Software\\Aula01\\IndexCalculator.Repository\\IndexCalculator.Repository.csproj"
               }
             }
           }
