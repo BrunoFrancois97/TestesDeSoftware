@@ -1,0 +1,7 @@
+D:\POS PUC\Testes de Software\Aula01\Aula01\bin\Debug\Aula01.exe.config
+D:\POS PUC\Testes de Software\Aula01\Aula01\bin\Debug\Aula01.exe
+D:\POS PUC\Testes de Software\Aula01\Aula01\bin\Debug\Aula01.pdb
+D:\POS PUC\Testes de Software\Aula01\Aula01\obj\Debug\Aula01.csprojAssemblyReference.cache
+D:\POS PUC\Testes de Software\Aula01\Aula01\obj\Debug\Aula01.csproj.CoreCompileInputs.cache
+D:\POS PUC\Testes de Software\Aula01\Aula01\obj\Debug\Aula01.exe
+D:\POS PUC\Testes de Software\Aula01\Aula01\obj\Debug\Aula01.pdb
