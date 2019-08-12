@@ -1,0 +1,12 @@
+/.vs
+/.gitignore
+/IndexCalculator.Repository/bin
+/IndexCalculator.Repository/obj
+/IndexCalculator.UI/bin
+/IndexCalculator.UI/obj
+/IndexCalculatorService/bin
+/IndexCalculatorService/obj
+/packages
+/TestResults
+/IndexCalculator.Test/obj
+/IndexCalculator.Test/bin

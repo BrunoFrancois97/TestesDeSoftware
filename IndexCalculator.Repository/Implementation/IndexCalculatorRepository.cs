@@ -15,8 +15,7 @@ namespace IndexCalculator.Repository.Implementation
         //TODO: maybe change this method return to ValidationResult
         public int GetIndex(int subscriptionNumber)
         {
-            int x;
-            if(!dict.TryGetValue(subscriptionNumber, out x))
+            if (!dict.TryGetValue(subscriptionNumber, out int x))
             {
                 throw new Exception($"Value {subscriptionNumber} not found");
             }
@@ -28,7 +27,7 @@ namespace IndexCalculator.Repository.Implementation
             dict.Add(13579, 1);
             dict.Add(13597, 2);
             dict.Add(97513, 3);
-            dict.Add(97531, 3);
+            dict.Add(97531, 4);
         }
     }
 }
