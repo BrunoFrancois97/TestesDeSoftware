@@ -15,7 +15,7 @@ namespace IndexCalculator.Repository.Implementation
             allSubscriptions = new List<int>();
             PopulateDictionary();
         }
-        //TODO: maybe change this method return to ValidationResult
+
         public int GetIndex(int subscriptionNumber)
         {
             if (!dict.TryGetValue(subscriptionNumber, out int x))
