@@ -36,9 +36,13 @@ namespace IndexCalculator.Test
         }
 
         [TestMethod]
-        public void TestEvenNumber()
+        public void TestNumberWithEvenDigits()
         {
-            Assert.ThrowsException<Exception>(() => service.GetIndex("1234"));
+            Assert.ThrowsException<Exception>(() => service.GetIndex("13578"));
+            Assert.ThrowsException<Exception>(() => service.GetIndex("13589"));
+            Assert.ThrowsException<Exception>(() => service.GetIndex("13879"));
+            Assert.ThrowsException<Exception>(() => service.GetIndex("18579"));
+            Assert.ThrowsException<Exception>(() => service.GetIndex("83579"));
         }
 
         [TestMethod]
