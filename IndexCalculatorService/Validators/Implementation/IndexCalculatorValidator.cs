@@ -1,5 +1,7 @@
 ﻿using IndexCalculator.Service.Validators.Contract;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace IndexCalculator.Service.Validators.Implementation
 {
@@ -29,6 +31,11 @@ namespace IndexCalculator.Service.Validators.Implementation
                     validationResult.AddError("Number has even digits");
                 }
 
+                if(HasRepeatedDigit(result))
+                {
+                    validationResult.AddError("Number has repeated digits");
+                }
+
                 validationResult.Index = result;
 
                 return validationResult;
@@ -53,6 +60,21 @@ namespace IndexCalculator.Service.Validators.Implementation
                 subscriptionNumber /= divisor;
             }
             return false;
+        }
+
+        private bool HasRepeatedDigit(int subscriptionNumber)
+        {
+            var listOfInts = new List<int>();
+
+            while (subscriptionNumber > 0)
+            {
+                listOfInts.Add(subscriptionNumber % 10);
+                subscriptionNumber /= 10;
+            }
+
+            return listOfInts
+              .GroupBy(i => i)
+              .Any(g => g.Count() > 1);
         }
     }
 }

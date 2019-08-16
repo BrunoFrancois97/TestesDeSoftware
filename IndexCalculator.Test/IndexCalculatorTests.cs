@@ -36,6 +36,18 @@ namespace IndexCalculator.Test
         }
 
         [TestMethod]
+        public void TestBelowMinimun()
+        {
+            Assert.ThrowsException<Exception>(() => service.GetIndex("1357"));
+        }
+
+        [TestMethod]
+        public void TestOverMximum()
+        {
+            Assert.ThrowsException<Exception>(() => service.GetIndex("11111111"));
+        }
+
+        [TestMethod]
         public void TestNumberWithEvenDigits()
         {
             Assert.ThrowsException<Exception>(() => service.GetIndex("13578"));
